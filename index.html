@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manish's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e4/NSUT_logo.png" alt="NSUT logo" width="100" height="150">
+            
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="hero">
+                <img src="https://i.ibb.co/wYS7X8L/Manish-img.jpg" alt="Manish's Image" class="profile-img">
+                <h1>Hi, I'm Manish</h1>
+                <p>A Computer Science student at <strong>Netaji Subhas University of Technology (NSUT)</strong>, passionate about web development and programming.</p>
+                <button onclick="viewProjects()">View My Projects</button>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                I'm Manish, a dedicated Computer Science student at <strong>NSUT</strong>. I specialize in web development and have a keen interest in building modern, responsive, and user-friendly websites.
+                <br><br>
+                Contact me:
+                <ul>
+                    <li>Email: <a href="mailto:my474421@gmail.com">my474421@gmail.com</a></li>
+                    <li>Phone: +91 9891190459</li>
+                    <li><a href="https://www.linkedin.com/in/manish-yadav-22731725a" target="_blank">LinkedIn</a></li>
+                    <li><a href="https://github.com/Manish-459/spotify-clone" target="_blank">GitHub</a></li>
+                </ul>
+            </p>
+        </section>
+
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div class="project-list">
+                <div class="project">
+                    <h3>Connect 4 Game</h3>
+                    <p>A fully functional Connect 4 game using JavaScript.</p>
+                </div>
+                <div class="project">
+                    <h3>eCommerce Website</h3>
+                    <p>A feature-rich eCommerce platform with a user-friendly interface.</p>
+                </div>
+                <div class="project">
+                    <h3>Spotify Clone</h3>
+                    <p>A music streaming platform clone inspired by Spotify. <a href="https://github.com/Manish-459/spotify-clone" target="_blank">View on GitHub</a></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Manish | Netaji Subhas University of Technology (NSUT) | <a href="https://www.linkedin.com/in/manish-yadav-22731725a" target="_blank">LinkedIn</a> | <a href="https://github.com/Manish-459/spotify-clone" target="_blank">GitHub</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
